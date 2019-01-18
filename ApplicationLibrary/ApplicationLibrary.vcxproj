@@ -158,7 +158,7 @@
     <LinkIncremental>false</LinkIncremental>
     <IncludePath>C:\local\boost_1_66_0;$(IncludePath);$(SolutionDir)applib-dist\include</IncludePath>
     <OutDir>$(SolutionDir)applib-dist\x86\</OutDir>
-    <TargetName>applib-mt</TargetName>
+    <TargetName>applib-mt-s</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
@@ -170,7 +170,7 @@
     <LinkIncremental>false</LinkIncremental>
     <IncludePath>C:\local\boost_1_66_0;$(IncludePath);$(SolutionDir)applib-dist\include</IncludePath>
     <OutDir>$(SolutionDir)applib-dist\x64\</OutDir>
-    <TargetName>applib-mt</TargetName>
+    <TargetName>applib-mt-s</TargetName>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
